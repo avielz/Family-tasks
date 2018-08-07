@@ -12,7 +12,7 @@ start mysql module- should run on port 3306
 start apache module - 
 XAMPP includes phpMyAdmin, an open-source, browser-based tool for managing MySQL
 to run click on mysql->admin and a web page with phpMyAdmin tool will open
-or browse to http://localhost/phpMyAdmin or http://127.0.0.1/phpMyAdmin. 
+or browse to http://localhost/phpmyadmin or http://127.0.0.1/phpmyadmin. 
 
 import project database:
 in phpMyAdmin browser-based tool
