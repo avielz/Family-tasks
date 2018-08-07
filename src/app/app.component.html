@@ -1,0 +1,17 @@
+<div style="text-align:center">
+  <h3>Welcome to {{ title }}</h3>
+</div>
+
+
+<ul>
+    <li><a routerLink="/tasklist">Task list</a></li>
+    <li><a routerLink="/memberslist">Family members list</a></li>
+    <li><a routerLink="/addTask">Set new task</a></li>
+</ul>
+
+<hr>
+<br>
+<router-outlet>
+  <div>this came from the router:<hr></div>
+</router-outlet>
+

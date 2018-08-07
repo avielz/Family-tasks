@@ -1,0 +1,17 @@
+<table>
+  <thead>
+      <tr>
+          
+          <th>Task</th>
+          
+          <th>Assigned to</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let data of tasklist">
+          <td>{{data.task}}</td>
+          <td>{{data.name}}</td>
+          
+      </tr>
+  </tbody>
+</table>

@@ -1,0 +1,28 @@
+<div class="form-group">
+
+<p>
+  Task description:
+  <input type="text" [(ngModel)]="description" />
+</p>
+
+<p>
+  Task due date:
+  <input type="date" [(ngModel)]="date" />
+</p>
+
+<p>
+  Delegate to:
+    <select [(ngModel)]="ownerID">
+        <option *ngFor="let data of memberlist" [value]="data?.id">{{data?.name}}</option>
+    </select>
+</p>
+
+  <input type="button" value="Set task" (click)="onSetTask()" />
+</div>
+
+<p>
+  {{ message }}
+</p>
+
+
+
