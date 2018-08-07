@@ -1,7 +1,7 @@
 # Family-tasks
 angular node.js exam John Bryce
 
-pre-requisits:
+prerequisites:
 
 Apache web server to connect to mysql database
 XAMPP is an easy to install Apache distribution: 
